@@ -1,13 +1,11 @@
 ﻿namespace FrontToBack.Models
 {
-    public class AboutUs: BaseEntity
+    public class Team: BaseEntity
     {
-        public string Image { get; set; }
         public string Title { get; set; }
         public string Description { get; set; }
-
+        public ICollection<TeamMember> TeamMembers { get; set; }
 
 
     }
 }
-

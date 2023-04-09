@@ -15,9 +15,11 @@ namespace FrontToBack.Data
         public DbSet<Work> Works { get; set; }
         public DbSet<WorkImage> WorkImages { get; set; }
         public DbSet<Category> Categories { get; set; }
-
-
-
+        public DbSet<Team> Teams { get; set; }
+        public DbSet<TeamMember> TeamMembers { get; set; }
+        public DbSet<Offer> Offers { get; set; }
+        public DbSet<Package> Packages { get; set; }
+        public DbSet<Contact> Contacts { get; set; }
 
     }
 }

@@ -6,4 +6,7 @@
         public string Filter { get; set; }
         public ICollection<Work> Works { get; set; }
     }
+
 }
+
+
